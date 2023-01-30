@@ -24,7 +24,7 @@ jwtClient.authorize(function(err, tokens) {
     },
     auth: { "bearer": tokens.access_token },
     json: {
-      "url": "https://zucca100.com/123",
+      "url": "https://example.com/",
       "type": "URL_UPDATED"
     }
   };
